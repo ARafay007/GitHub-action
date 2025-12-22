@@ -1,0 +1,24 @@
+# simple properties
+name: Mark
+color: brown
+
+# object
+obj:
+  name: somthing
+  age: 12
+  gender: true
+
+# array
+arr:
+  - red
+  - blue
+  - green
+
+# array of object
+arrOfObj:
+  - id: 1
+    name: Mark
+  - id: 2
+    name: James
+  - id: 3
+    name: Susie
