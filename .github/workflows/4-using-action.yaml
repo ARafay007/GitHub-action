@@ -1,0 +1,13 @@
+name: 4 - using actions
+
+on: push
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout Code
+              uses: actions/checkout@v4
+            - name: Run Echo
+              run: echo"echo echo"
+            
