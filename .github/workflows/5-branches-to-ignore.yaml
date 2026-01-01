@@ -1,0 +1,16 @@
+name: 5 - Brances to ignore
+
+on: 
+  push:
+    branches:
+      - main
+      - 'release/**'
+    paths-ignore:
+      - 'docs/**'
+
+jobs: 
+  testing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Shows the directories
+        run: ls
